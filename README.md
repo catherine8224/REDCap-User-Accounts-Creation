@@ -1,3 +1,3 @@
-# REDCap-User-Accounts-Creation
+# REDCap User Accounts Creation
 
 ![](Enable_Survey.gif)
