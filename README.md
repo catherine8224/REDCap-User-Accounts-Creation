@@ -5,3 +5,4 @@
 
 
 2) When the user is already part of the main institution (have their own username and associated password and can automatically log into REDCap)
+![](Enable_Survey_2.gif)
