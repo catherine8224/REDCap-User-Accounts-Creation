@@ -9,6 +9,6 @@
 3)Other issues:
 <ul>
   <li>When the user is part of the main institution (have their own username and associated password and can automatically log into REDCap)</li>
-![](Enable_Survey_2.gif)
+![alt text](Enable_Survey_2.gif)
   <li> When the user provides a personal email </li>
   <li> When the sponsor is not from the main institution or affiliated institutions </li>
