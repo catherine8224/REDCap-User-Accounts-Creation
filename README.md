@@ -1,6 +1,6 @@
 # REDCap User Accounts Creation
 1) When the REDCap user account creation is successful:
-
+![](Enable_Survey_3.gif)
 
 2) When the REDCap user account was already created:
 ![](Enable_Survey.gif)
