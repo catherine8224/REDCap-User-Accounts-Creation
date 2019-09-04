@@ -12,3 +12,4 @@
 ![alt-text](https://github.com/catherine8224/REDCap-User-Accounts-Creation/blob/master/Enable_Survey_2.gif)
   <li> When the user provides a personal email </li>
   <li> When the sponsor is not from the main institution or affiliated institutions </li>
+</ul>
