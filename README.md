@@ -11,7 +11,7 @@
   <li>When the user is part of the main institution (have their own username and associated password and can automatically log into REDCap)</li>
   <IMG SRC="Enable_Survey_2.gif">
   <li> When the user provides a personal email </li>
-    
+  <IMG SRC="personalemail.png">
   <li> When the sponsor is not from the main institution or affiliated institutions </li>
   <IMG SRC="sponsemail.png">
 </ul>
