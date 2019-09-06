@@ -26,7 +26,7 @@ This project was created with the intention that others can use it to create a u
   <IMG SRC="personalemail.png">
   <li> When the sponsor is not from the main institution or affiliated institutions </li>
   <IMG SRC="sponsemail.png">
-  ```python 
+```python 
     name = user[0]['firstname'] + ' ' + user[0]['lastname'] #get the users' first and last name
     subject = "User Account(s) Requests"
     recipient = "can2010@med.cornell.edu"
@@ -64,9 +64,6 @@ This project was created with the intention that others can use it to create a u
     s.sendmail(sender, recipient, text)
     print('done!')
     s.quit() 
-    """
-  ```   
-```python
-s = "Python syntax highlighting"
-print s
-```
+
+```   
+
