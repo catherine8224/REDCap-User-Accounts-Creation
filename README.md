@@ -8,6 +8,10 @@
 - this text is highlighted in red
 ```
 
+```html
+   // code for coloring
+```
+
 1) When the REDCap user account creation is successful:
 ![](Enable_Survey_3.gif)
 
