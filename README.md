@@ -9,7 +9,7 @@
 ```
 
 ```html
-   // code for coloring
+<font color = 'red'> The font color is red </font>
 ```
 
 1) When the REDCap user account creation is successful:
