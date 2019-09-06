@@ -1,4 +1,7 @@
 # REDCap User Accounts Creation
+
+<font color = 'red'> This project was created in the intention that others can use it to create a user account, assuming there is an exisitng REDCap project with a survey that allows users to sign up for a user account. </font>
+
 1) When the REDCap user account creation is successful:
 ![](Enable_Survey_3.gif)
 
