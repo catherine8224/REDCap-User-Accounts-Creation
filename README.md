@@ -27,4 +27,43 @@
   <IMG SRC="personalemail.png">
   <li> When the sponsor is not from the main institution or affiliated institutions </li>
   <IMG SRC="sponsemail.png">
+```python 
+    name = user[0]['firstname'] + ' ' + user[0]['lastname'] #get the users' first and last name
+    subject = "User Account(s) Requests"
+    recipient = "can2010@med.cornell.edu"
+    sender = "can2010@med.cornell.edu"
+    cc = "cathygreat828@gmail.com"
+    password = base64.b64decode(b'UG9vcHNAIzQ=')
+    password = password.decode("utf-8")
+
+    message = MIMEMultipart("alternative")
+    message["From"] = sender 
+    message["To"] = recipient
+    message["Subject"] = subject
+    message["Cc"] = cc
+    html = """\
+    <html>
+        <body>
+            <p style= "color:#1E497D; font-family: Calibri, sans-serif;">Dear {sponsorname}, <br>
+                <br>Thank you for filling out the username request form for {name} and others.</br>
+                I noticed that you have an email address that is not affiliated with WCM/NYP or are partners with them.
+                You must fill in a sponsor that is a member of WCM CTSC partner institutions (e.g. WCM/NYP, Cornell, MSKCC, HSS, Hunter College, AMC, Burke, etc). 
+                <br>Thank you! </br>
+                <br>Best,</br>
+                Catherine Ng </br>
+            </p>
+        </body>
+    </html>""".format(**locals())
+    part2 = MIMEText(html,"html")
+    message.attach(part2)
+    text = message.as_string()
+
+    s = smtplib.SMTP("smtp.office365.com", 587)
+    s.ehlo()
+    s.starttls()
+    s.login(sender, password)
+    s.sendmail(sender, recipient, text)
+    print('done!')
+    s.quit() 
+```    
 </ul>
