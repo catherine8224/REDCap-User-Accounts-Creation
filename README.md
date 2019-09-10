@@ -74,6 +74,5 @@ This project was created with the intention that others can use it to create a u
     s.sendmail(sender, recipient, text)
     print('done!')
     s.quit() 
-
 ```   
 
