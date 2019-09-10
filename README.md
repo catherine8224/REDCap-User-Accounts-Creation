@@ -11,14 +11,14 @@ This project was created with the intention that others can use it to create a u
 <font color = 'red'> The font color is red </font>
 ```
 
-1) When the REDCap user account creation is successful:
+# 1) When the REDCap user account creation is successful:
 ![](Enable_Survey_3.gif)
 
-2) When the REDCap user account was already created:
+# 2) When the REDCap user account was already created:
 ![](Enable_Survey.gif)
 
 
-3)Other issues:
+# 3)Other issues:
 <ul>
   <li>When the user is part of the main institution (have their own username and associated password and can automatically log into REDCap)</li>
   <IMG SRC="Enable_Survey_2.gif">
