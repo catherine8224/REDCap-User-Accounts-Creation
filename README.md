@@ -34,7 +34,7 @@ This project was created with the intention that others can use it to create a u
     recipient = "[the email address of receiver]"
     sender = "[your email address]"
     cc = "[additional email addresses]"
-    password = base64.b64decode(b'UG9vcHNAIzQ=')
+    password = base64.b64decode(b'[password]')
     password = password.decode("utf-8")
 
     message = MIMEMultipart("alternative")
