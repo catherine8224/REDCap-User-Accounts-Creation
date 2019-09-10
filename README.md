@@ -3,13 +3,18 @@ This project was created with the intention that others can use it to create a u
 
 
 ```diff
-+ this text is highlighted in green
-- this text is highlighted in red
++ this was created using Python3.7 on Windows
 ```
 
-```html
-<font color = 'red'> The font color is red </font>
-```
+## Setup Python
+
+1. Install Python 2 or Python 3 from https://www.python.org/downloads/
+2. Verify your installation by running `python` and `pip` from your terminal.
+3. Install the Python `redcap` library:
+
+    ```
+    pip install redcap
+    ```
 
 # 1) Successful REDCap user account creation
 ![](Enable_Survey_3.gif)
