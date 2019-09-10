@@ -31,9 +31,9 @@ This project was created with the intention that others can use it to create a u
 ```python
     name = user[0]['firstname'] + ' ' + user[0]['lastname'] #get the users' first and last name
     subject = "User Account(s) Requests"
-    recipient = "can2010@med.cornell.edu"
-    sender = "can2010@med.cornell.edu"
-    cc = "cathygreat828@gmail.com"
+    recipient = "[the email address of receiver]"
+    sender = "[your email address]"
+    cc = "[additional email addresses]"
     password = base64.b64decode(b'UG9vcHNAIzQ=')
     password = password.decode("utf-8")
 
@@ -47,8 +47,8 @@ This project was created with the intention that others can use it to create a u
         <body>
             <p style= "color:#1E497D; font-family: Calibri, sans-serif;">Dear {sponsorname}, <br>
                 <br>Thank you for filling out the username request form for {name} and others.</br>
-                I noticed that you have an email address that is not affiliated with WCM/NYP or are partners with them.
-                You must fill in a sponsor that is a member of WCM CTSC partner institutions (e.g. WCM/NYP, Cornell, MSKCC, HSS, Hunter College, AMC, Burke, etc). 
+                I noticed that you have an email address that is not affiliated with [institution] or are partners with them.
+                You must fill in a sponsor that is a member of [institution] partner institutions (e.g. ..., etc). 
                 <br>Thank you! </br>
                 <br>Best,</br>
                 Catherine Ng </br>
