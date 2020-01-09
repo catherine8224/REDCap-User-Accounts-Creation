@@ -21,6 +21,7 @@ This project was created with the intention that others can use it to create a u
 
 # 1) Successful REDCap user account creation
 ![](Enable_Survey_3.gif)
+made with the help of ScreenToGif
 
 
 # 2) REDCap user account was already created:
